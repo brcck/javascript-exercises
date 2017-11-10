@@ -18,3 +18,6 @@ I'm learning I really need to read documentation more closely than I did when I 
 
 ## book_titles
 Learned the hard way that if a class has a setter, it also *needs* a getter, otherwise trying to access your properties will always return 'undefined.'
+
+## caesar
+Found out that JavaScript's modulo operator is what one might consider "broken," when given a negative number. I do not want `-3 % 5 = -3`. I want `-3 % 5 = 2`!
