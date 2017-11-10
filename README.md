@@ -1,25 +1,20 @@
-These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start very simply, but get more involved as you progress through them.
+> These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start very simply, but get more involved as you progress through them.
 
-There will eventually be a suggested order of completion, but at this time since we are still in the process of creating more exercises the order is subject to change and has not yet been specified... In general however there are a couple which make a good "starting point" feel free to at least start with these:
+## simon_says
+Today I learned about regular expressions. Found this quotation in [Eloquent Javascript](https://eloquentjavascript.net/09_regexp.html) to be very true.
+>Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems.
+>
+> --- Jamie Zawinski
 
-1. Hello World
-1. Repeat String
-1. Reverse String
+## snake_case
+The jasmine spec is actually wrong here.
 
-## HOW TO USE THESE EXERCISES
-Before you start you should have a few things installed on your machine:
-1. NodeJS.  To check if you have it type `node -v` in a terminal.  If you get back a number that means you've got it installed.  If not, you have a few options, [check here](https://nodejs.org/en/).
- - INSERT LINK TO INSTALLING NODEJS WITH NVM HERE.
-2. Jasmine.  Jasmine is a testing framework for Javascript.  Type `jasmine -v` to check for it.  If you need to install it type `npm install -g jasmine` to do so.
+`!0 = 1`
 
-Each exercise includes 3 files, a markdown file with a description of the task, an empty (or mostly empty) javascript file, and a set of tests.  To complete the exercise go to the exercise directory in a terminal and run `jasmine filename.spec.js`.  This should find and run the test file and show you the output.  Upon first running the tests you will find that the tests fail: this is by design!  Your task is to open up the javascript file and write the code needed to get all of the tests to pass.
+`!0 != 0`
 
-The first exercise, `helloWorld` will walk you through the process in more depth.
+## palindromes
+I'm learning I really need to read documentation more closely than I did when I was working in Python. So many methods act just a little differently than I think they should, and I get hungup until I realize, "Oh, I'm using that incorrectly."
 
-
-## planned exercises (in no particular order for the moment):
-1. count vowels, count specific letter
-1. book tracker.  save books, return unread, read, books by rating etc.
-1. credit card number validation
-1. Scrabble Score
-
+## book_titles
+Learned the hard way that if a class has a setter, it also *needs* a getter, otherwise trying to access your properties will always return 'undefined.'
