@@ -1,5 +1,5 @@
-var snakeCase = function() {
+var snakeCase = function(phrase) {
 
-}
+};
 
 module.exports = snakeCase
