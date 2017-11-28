@@ -1,5 +1,6 @@
 # JavaScript Exercises
-> These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start very simply, but get more involved as you progress through them.
+
+> These are a series of javascript exercises intended to be used alongside the curriculum at ['The Odin Project.'](https://theodinproject.com)  They start very simply, but get more involved as you progress through them.
 
 ### simon_says
 Today I learned about regular expressions. Found this quotation in [Eloquent Javascript](https://eloquentjavascript.net/09_regexp.html) to be very true.
